@@ -1,0 +1,23 @@
+.transactions {
+  margin: 30px auto;
+  width: 400px;
+  font-size: 15px;
+  text-align: center;
+  border: 1px solid grey;
+}
+
+thead {
+  background-color: rgb(148, 164, 233);
+  color: white;
+  text-transform: uppercase;
+}
+
+th,
+td {
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background: lightgray;
+}
